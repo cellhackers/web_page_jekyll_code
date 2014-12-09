@@ -1,0 +1,38 @@
+---
+layout: base
+---
+<div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
+    
+    <section>
+        <div class="container">
+            <h1>{{ site.inc.title }}</h1>
+            {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
+        
+            {% if site.inc.twitter %}
+            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
+            {% endif %}
+            {% if site.inc.facebook %}
+            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
+            {% endif %}
+        </div>
+    </section>
+</div>
+
+<article class="container">
+
+  <section class="index">
+    <div>
+
+    </div>
+  </section>
+
+  <section class="index">
+      <div>
+	  <h2 class="title"><a>Our Mission</a></h2>
+          <p>The Cell Hackers Club at UCSF is aimed at bringing together bioinformatitians/programmers and biologists to form both scientific collaborations as well as interdisciplinary learning. The Cell Hackers Club consists of one formal meeting a month in which we invite relevant industry experts and professors to discuss their work. In between meetings, we foster an environment of collaborations through informal meetings and seminars in relevant bioinformatics topics. All of this work is in the hopes of improving upon the excellence of science research and education already occurring at UCSF.</p>
+          <div class="meta">
+          </div>
+      </div>
+      <hr>
+  </section>
+</article>
